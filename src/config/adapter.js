@@ -36,13 +36,13 @@ exports.model = {
   },
   mysql: {
     handle: mysql,
-    database: '',
-    prefix: 'think_',
+    database: 'blockchain-xingkong-test',
+    prefix: 'xk_',
     encoding: 'utf8',
-    host: '127.0.0.1',
-    port: '',
+    host: '118.89.237.160',
+    port: '3306',
     user: 'root',
-    password: 'root',
+    password: '1qaz!QAZ',
     dateStrings: true
   }
 };
